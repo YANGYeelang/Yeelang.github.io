@@ -1,0 +1,242 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* ***************navbar styling************* */
+
+.navb {
+    background-color: rgb(80, 100, 70);
+    position: fixed;
+    width: 100%;
+    transition: all 2s ease;
+}
+
+.navb.sticky {
+    /* background-color: #555; */
+    transition: all 9s ease;
+    display: none;
+}
+
+.navb .max_width{
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navb .max_width .logo {
+    margin-top: -20px;
+    padding: 0;
+}
+.navb .max_width .logo a {
+    margin: 0px;
+    padding: 0px;
+    font-size: 45px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-top: 0%;
+    color: #8999f9;
+}
+.navb .max_width .logo a span:hover {
+    color: rgb(30, 50, 50);
+    transition: all 0.4s ease;
+}
+
+.navb .max_width .menu ul{
+    display: flex;
+    list-style: none;
+}
+.navb .max_width .menu ul li {
+    margin-left: 40px;
+}
+.navb .max_width .menu ul li a {
+color: #8999f9;
+font-size: 25px;
+list-style: none;
+text-decoration: none;
+}
+
+.navb .max_width .menu ul li a:hover {
+    color: rgb(30, 50, 50);
+    transition: all 0.3s ease;
+}
+/* ******************body styling ******************/
+body {
+    background-color: #f11;
+
+}
+
+/******************* Home Styling****************** */
+
+ .Home{
+    height: 100vh;
+    position: static;
+    display: flex;
+    align-items: center;
+}
+.Home .max_width {
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Home .max_width .first span {
+    color: #315131;
+
+}
+
+.Home .max_width .first .typing {
+    color: rgb(100, 70, 130);
+    font-size: 25px;
+    font-weight: bold;
+}
+.Home .max_width .second a .button {
+border: gray 2px solid;
+background-color: #8999f9;
+border-radius: 10px;
+padding: 2px 8px;
+margin-top: 10%;
+}
+.Home .max_width .second a .button:hover {
+    background-color: rgb(100, 100, 100);
+    color: #8999f9;
+    border: 3px solid gray;
+}
+
+
+/* ************About styling*********************** */
+
+
+
+ .About {
+    height: 100vh;
+    display: block;
+    align-items: center;
+}
+.About .title {
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+color: #111;
+}
+
+.About .title::after {
+    content: " Who I am";
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    height: 3px;
+    width: 20%;
+    background-color: #111;
+    transform: translateX(-50%);
+}
+
+.About .max_width {
+    line-height: 1.4;
+    display: flex;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #195277;
+    margin-top: 10%;
+}
+ .About .max_width .left {
+    width: 30%;
+    margin-left: 3%;
+ }
+  .About .max_width .left img {
+    width: 70%;
+    height: 85%;
+    transform: scale(0.9);
+  }
+.About .max_width .typing_1 {
+    color: rgb(100, 70, 130);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.About .max_width .icons {
+    display: flex;
+}
+
+.About .max_width .icons .icon {
+    margin-left: 35px;
+    max-width: 250px;
+    display: block;
+}
+.About .max_width .icons .icon .flex {
+    justify-content: center;
+    display: flex;
+}
+
+
+.About .max_width .icons .icon .bi-facebook {
+   color: rgb(0, 0, 200);
+}
+
+.About .max_width .icons .icon .flex span {
+    color: rgb(100, 70, 130);
+    font-size: 12px;
+}
+
+.About .max_width .icons .icon .bi-youtube {
+   color: rgb(220, 0, 0);
+}
+
+.About .max_width .icons .icon .bi-instagram {
+  color: rgb(0, 200, 0);
+}  
+
+
+/* *************Skills styling******************** */
+
+
+
+ .Skills {
+    height: 100vh;
+    border: 2px solid blue;
+}
+
+.Skills .title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #111;
+}
+.Skills .max-width {   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Skills .max-width .left {
+    display: block;
+    border: 2px solid black;
+}
+.Skills .max-width .left .header {
+    color: #aaa;
+    font-weight: 500;
+    font-size: 23px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.Skills .max-width .content {
+    color: #195277;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Skills .max-width .right {
+    border: 2px solid yellow;
+    width: 50%;
+}
+.Skills .max-width .right .line_1 {
+height: 5px;
+width: 70%;
+display: block;
+border-radius: 10px;
+background-color: #fff;
+} 
